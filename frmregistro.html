@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Formulario</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <nav>
@@ -21,47 +23,50 @@
                 </ul>
             </div>
         </nav>
-        <div class="row">
-            <form class="col s12">
-              <div class="row">
-                <div class="input-field col s6">
-                  <input placeholder="First name" id="first_name" type="text" class="validate">
-                  <label class="active" for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <input placeholder="Last name" id="last_name" type="text" class="validate">
-                  <label class="active" for="last_name">Last Name</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                  <label class="active" for="disabled">Disabled</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input placeholder="Password" id="password" type="password" class="validate">
-                  <label class="active" for="password">Password</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input placeholder="Email" id="email" type="email" class="validate">
-                  <label class="active" for="email">Email</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col s12">
-                  This is an inline input field:
-                  <div class="input-field inline">
-                    <input placeholder="Email" id="email" type="email" class="validate">
-                    <label class="active" for="email" data-error="wrong" data-success="right">Email</label>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+        <div class="container" style="padding:2%;">
+
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="First name" id="first_name" type="text" class="validate">
+                            <label class="active" for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="Last name" id="last_name" type="text" class="validate">
+                            <label class="active" for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                            <label class="active" for="disabled">Disabled</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Password" id="password" type="password" class="validate">
+                            <label class="active" for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input placeholder="Email" id="email" type="email" class="validate">
+                            <label class="active" for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            This is an inline input field:
+                            <div class="input-field inline">
+                                <input placeholder="Email" id="email" type="email" class="validate">
+                                <label class="active" for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
         <center>
 
             <ul class="pagination">
@@ -103,4 +108,5 @@
     </div>
     <script src="./js/materialize.min.js"></script>
 </body>
+
 </html>
